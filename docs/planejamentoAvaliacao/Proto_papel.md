@@ -26,11 +26,34 @@ _Este documento está focado principalmente na fase de preparação e no planeja
 
 ### Protótipos
 
-- Os protótipos desenhados podem ser visualizados [aqui]()
+- Os protótipos desenhados podem ser visualizados [aqui]().
 
 ### Teste piloto
 
 O teste piloto serve para os avaliadores checarem o plano da avaliação, com o objetivo de analisar se serão coletados os dados corretos e se o ambiente de avaliação está funcionando corretamente.
+
+### Termo de consentimento
+
+O termo de consentimento é um documento que serve para as questões éticas da avaliação com o participante. Nele devem estar escritos principalmente informações do que se trata a avaliação, o que o participante fará e o que será feito com os dados coletados.
+
+O termo será passado ao usuário assim que ele aceitar realizar a avaliação e terá desde este momento até a avaliação para ler e assinar o documento que será entregue por meio de um formulário online. Recomenda-se ao avaliador a resumir brevemente o termo e perguntar ao participante se ele tem qualquer dúvida quanto aos termos da avaliação e sanar essas dúvidas caso existam.
+
+### Contexto Remoto
+
+Devido ao cenário de pandemia vivenciado durante a realização do semestre corrente (2020/1), a avaliação será feita de forma remota. Para isso são necessários algumas ferramentas extras para a realização da avaliação. Neste caso:
+
+- Uma plataforma de vídeo-conferência que seja possível compartilhar a tela, e gravar a avaliação para análises depois da entrevista. 
+
+- Uma plataforma em que se possa enviar os protótipos de papel digitalizados e criar áreas de interação para auxiliar na avaliação.
+
+### Fluxo da Avaliação
+
+A ordem das tarefas durante a avaliação deverá ser:
+
+- Confirmação de que o usuário está ciente dos termos da avaliação e assinatura do termo de consentimento;
+- Pré-entrevista;
+- Avaliação com os protótipos;
+- Pós-entrevista.
 
 ## Dados a coletar
 
@@ -46,7 +69,7 @@ As perguntas abaixo devem ser respondidas em relação a realização de cada ta
 
 ### Pré-entrevista
 
-A pré-entrevista serve para ter um breve contexto sobre o usuário e sua experiência com o sistema a ser avaliado, ou semelhantes.
+A pré-entrevista serve para ter um breve contexto sobre o participante e sua experiência com o sistema a ser avaliado, ou semelhantes.
 
 O avaliador pode passar estas perguntas como um questionário ou fazer elas diretamente para o usuário antes de começar a avaliação.
 
@@ -64,7 +87,7 @@ O avaliador pode passar estas perguntas como um questionário ou fazer elas dire
 
 A pós-entrevista serve para ouvir quaisquer considerações finais quanto as tarefas ou mesmo a avaliação por parte do usuário. Neste caso consistirá de perguntas abertas:
 
-- Algum comentário a mais em relação aos protótipos?
+- Algum comentário a mais em relação aos protótipos? (Sugestões/reclamações)
 - Algum comentário quanto a avaliação em si? (Sugestões/reclamações)
 
 ## Planejamento do relato dos resultados
@@ -96,6 +119,7 @@ O relato dos resultados é documentado após a consolidação dos resultados e d
 |-|-|-|-
 |Wagner Martins| 1.0 | 08/11/2020 | Criação do documento<br>Planejamento da avaliação e do relato
 |Wagner Martins| 2.0 | 09/11/2020 | Detalhamento na fase de preparação e nos dados a serem coletados
+|Wagner Martins| 2.1 | 10/11/2020 | Termo de consentimento, contexto remoto e fluxo da avaliação
 
 ## Referências
 
