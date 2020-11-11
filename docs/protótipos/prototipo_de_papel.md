@@ -70,3 +70,9 @@ Autor | Versão | Data(dd/mm/aaa) | Descrição
 ---- | ----------- | ------ | ---------
 [Murilo Schiler](https://github.com/muriloschiler) | 1.0 | 20/09/2020 | Criação do documento.
 [Lucas Lopes](https://github.com/lucaslop) | 2.0 | 11/11/2020 | Criação do prótotipo de papel.
+
+## Refêrencias
+
+<p align="justify"> MEDIUM. Protótipos de Papel. Disponível em: https://medium.com/aela/prototipos-de-papel-9f812d5b0dcc. Acesso em: 11 nov. 2020. </p>
+
+<p align="justify" >TASSIOAUAD. Prototipação. Disponível em: https://tassioauad.com/2017/02/02/prototipacao/. Acesso em: 11 nov. 2020. </p>
