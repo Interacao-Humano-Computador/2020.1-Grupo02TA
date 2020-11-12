@@ -17,7 +17,7 @@ _Este documento está focado principalmente na fase de preparação e no planeja
 ### Tarefas
 
 - Login
-- Visualizar calendário acadêmico
+- Consultar minhas notas
 - Visualizar componente curricular
 
 ### Perfil dos participantes
