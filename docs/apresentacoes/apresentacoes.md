@@ -11,3 +11,11 @@
 ## 3 - Princípios Gerais, Metas de Usabilidade e Guia de Estilo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PObDwrmDFsU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 4 - Análise de tarefas, Storyboard e Planejamento da Avaliação
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4vtfsgU2thQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 5 - Planejamento do Protótipo de papel e Relato do Storyboard e Análise de tarefas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IcH8zC2m58A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
