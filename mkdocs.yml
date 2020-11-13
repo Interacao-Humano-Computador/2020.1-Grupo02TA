@@ -19,6 +19,8 @@ pages:
   - Planejamento de avaliação: 
     - Planejamento avaliação do StoryBoard: 'planejamentoAvaliacao/PlStoryBoard.md'
     - Planejamento avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
+  - Protótipos:
+    - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
 extra_css: 
   - assets/css/extra.css
 theme:
