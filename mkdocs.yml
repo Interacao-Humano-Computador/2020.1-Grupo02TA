@@ -21,6 +21,7 @@ pages:
       - Planejamento avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
     - Protótipo de papel:
       - Planejamento: "planejamentoAvaliacao/Proto_papel.md"
+      - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
       - termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
 extra_css: 
