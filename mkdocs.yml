@@ -14,13 +14,16 @@ pages:
   - Guia de estilo: 'guia-de-estilo.md'
   - Análise de requisitos:
     - Metas de usabilidade: 'metas-de-usabilidade/metas.md'
-  - Storyboard: 'design-e-avalicao/storyboard.md'
+  - Design e Avaliação: 
+    - Análise Tarefas/Storyboard:
+      - Storyboard: 'design-e-avalicao/storyboard.md'
+      - Planejamento avaliação do StoryBoard: 'planejamentoAvaliacao/PlStoryBoard.md'
+      - Planejamento avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
+    - Protótipo de papel:
+      - Planejamento: "planejamentoAvaliacao/Proto_papel.md"
+      - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
+      - termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
-  - Planejamento de avaliação: 
-    - Planejamento avaliação do StoryBoard: 'planejamentoAvaliacao/PlStoryBoard.md'
-    - Planejamento avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
-  - Protótipos:
-    - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
 extra_css: 
   - assets/css/extra.css
 theme:
