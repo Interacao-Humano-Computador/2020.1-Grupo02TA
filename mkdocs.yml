@@ -26,7 +26,6 @@ pages:
       - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
       - termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
-  
 extra_css: 
   - assets/css/extra.css
 theme:
