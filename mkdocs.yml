@@ -18,7 +18,9 @@ pages:
     - Análise Tarefas/Storyboard:
       - Storyboard: 'design-e-avalicao/storyboard.md'
       - Planejamento avaliação do StoryBoard: 'planejamentoAvaliacao/PlStoryBoard.md'
-      - Planejamento avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
+      - Resultado da Avaliação do StoryBoard: 'ResulStoryboard/story.md'
+      - Planejamento da Avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
+      - Resultado da Avaliação de tarefas: 'ResulAnalise/analise.md'
     - Protótipo de papel:
       - Planejamento: "planejamentoAvaliacao/Proto_papel.md"
       - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
