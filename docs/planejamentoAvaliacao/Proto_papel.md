@@ -26,7 +26,7 @@ _Este documento está focado principalmente na fase de preparação e no planeja
 
 ### Protótipos
 
-- Os protótipos desenhados podem ser visualizados [aqui]().
+- Os desenhos do protótipo podem ser visualizados [aqui](../protótipos/prototipo_de_papel.md).
 
 ### Teste piloto
 
@@ -42,9 +42,9 @@ O termo será passado ao usuário assim que ele aceitar realizar a avaliação e
 
 Devido ao cenário de pandemia vivenciado durante a realização do semestre corrente (2020/1), a avaliação será feita de forma remota. Para isso são necessários algumas ferramentas extras para a realização da avaliação. Neste caso:
 
-- Uma plataforma de vídeo-conferência que seja possível compartilhar a tela, e gravar a avaliação para análises depois da entrevista. 
+- Uma plataforma de vídeo-conferência que seja possível compartilhar a tela, e gravar a avaliação para análises depois da entrevista. Para isso foi escolhido o Google Meet.
 
-- Uma plataforma em que se possa enviar os protótipos de papel digitalizados e criar áreas de interação para auxiliar na avaliação.
+- Uma plataforma em que se possa enviar os protótipos de papel digitalizados e criar áreas de interação para auxiliar na avaliação. Para isso foi escolhido o FIGMA, e o protótipo interativo pode ser vizualizado seguindo o [link](https://www.figma.com/proto/fZBY1jqeIODOFohHVMYG77/Prot%C3%B3tipo?node-id=34%3A4&scaling=min-zoom).
 
 ### Fluxo da Avaliação
 
