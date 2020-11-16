@@ -9,16 +9,20 @@ pages:
     - Questionário: 'perfil-usuario/questionario.md'
     - Entrevista: 'perfil-usuario/entrevista.md'
     - Persona: 'perfil-usuario/persona.md'
-  - Análise de tarefas: 'analise-de-tarefas/analise.md'
+  - Análise de tarefas: 
+    - Análise de tarefas: 'analise-de-tarefas/analise.md'
+    - Planejamento da Avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
+    - Resultado da Avaliação de tarefas: 'ResulAnalise/analise.md'
   - Principios Gerais: 'principios-gerais.md'
   - Guia de estilo: 'guia-de-estilo.md'
   - Análise de requisitos:
     - Metas de usabilidade: 'metas-de-usabilidade/metas.md'
-  - Storyboard: 'design-e-avalicao/storyboard.md'
+  - Storyboard: 
+    - Storyboard: 'design-e-avalicao/storyboard.md'
+    - Planejamento da Avaliação do StoryBoard: 'planejamentoAvaliacao/PlStoryBoard.md'
+    - Resultado da Avaliação do Storyboard: 'ResulStoryboard/story.md'
   - Apresentações: 'apresentacoes/apresentacoes.md'
-  - Planejamento de avaliação: 
-    - Planejamento avaliação do StoryBoard: 'planejamentoAvaliacao/PlStoryBoard.md'
-    - Planejamento avaliação de tarefas: 'planejamentoAvaliacao/PlHTA.md'
+  
 extra_css: 
   - assets/css/extra.css
 theme:

@@ -25,8 +25,8 @@ Gabriel tem 19 anos é estudante de Engenharia de Software na UnB, tem alta afin
 | ------------ | ---------------------- | 
 | 1. Com relação ao storyboard, a situação ilustrada condiz com a realidade? | (x) Sim () Não () Precisa melhorar. |
 | 1.1. Caso a última pergunta seja precisa melhorar, qual sugestão de alteração ou melhoria para o storyboard você sugere? | (Pergunta aberta).  |
-| 2.0. Com relação ao procedimento realizado no storyboard, está correto? | (x) Sim () Não () Precisa melhorar. |
-| 2.1. Caso a última pergunta seja não, qual sugestão de alteração ou melhoria para o storyboard você sugere? | (Pergunta aberta). |
+| 2.0. Com relação ao procedimento realizado no storyboard, está correto? | () Sim () Não (X) Precisa melhorar. |
+| 2.1. Caso a última pergunta seja não, qual sugestão de alteração ou melhoria para o storyboard você sugere? | Após realizar a busca o storyboard fala para clicar no nome da máteria para poder visualizar o seu componente currícular, porém o nome da máteria não é um link ele deve clicar no icone da lupa (vizualizar componente currícular). |
 <br>
 
 #### 2.3 - Questionário da Tarefa: [Visualizar estrutura curricular](https://interacao-humano-computador.github.io/2020.1-SIGAA/design-e-avalicao/storyboard/#3-estrutura)
@@ -35,8 +35,8 @@ Gabriel tem 19 anos é estudante de Engenharia de Software na UnB, tem alta afin
 | ------------ | ---------------------- | 
 | 1. Com relação ao storyboard, a situação ilustrada condiz com a realidade? | (x) Sim () Não () Precisa melhorar. |
 | 1.1. Caso a última pergunta seja precisa melhorar, qual sugestão de alteração ou melhoria para o storyboard você sugere? | (Pergunta aberta).  |
-| 2.0. Com relação ao procedimento realizado no storyboard, está correto? | (x) Sim () Não () Precisa melhorar. |
-| 2.1. Caso a última pergunta seja não, qual sugestão de alteração ou melhoria para o storyboard você sugere? | (Pergunta aberta). |
+| 2.0. Com relação ao procedimento realizado no storyboard, está correto? | () Sim () Não (X) Precisa melhorar. |
+| 2.1. Caso a última pergunta seja não, qual sugestão de alteração ou melhoria para o storyboard você sugere? | Após fazer a busca pelo fluxo do curso deve selecionar o fluxo no qual se está inserido para poder observár-lo. |
 <br>
 
 #### 2.4 - Questionário da Tarefa: [Visualizar histórico acadêmico](https://interacao-humano-computador.github.io/2020.1-SIGAA/design-e-avalicao/storyboard/#4-historico)
@@ -108,14 +108,19 @@ Sugestão: Aumento da fonte e do enquadramento do site.
 Após a entrevista, o entrevistado também alega dificuldades em entender como o calendário está organizado. <br>
 Sugestão: Tornar o calendário mais intuitivo utilizando cores diferentes para destacar dias importantes e organizar as atividades conforme dia e mês. 
 <br>
- 
+
+### Participante 2
+
+Após a entrevista, o entrevistado relatou que o procedimento do storyboard está condizente com a realidade e também informou que pelo fato de ser um usário muito frequente do SIGAA, se sente muito bem familiarizado com a plataforma e possui muita facilidade para acessar suas funcionalidades.
+
 
 ## Histórico de revisões 
   
 Autor | Versão | Data(dd/mm/aaa) | Descrição  
 ---- | ----------- | ------ | --------- 
 [Kalebe](https://github.com/KalebeLopes), [Thiago](https://github.com/thiagomesUNB) | 1.0 | 11/11/2020 | Primeira versão da Entrevista 
-[Kalebe](https://github.com/KalebeLopes), [Thiago](https://github.com/thiagomesUNB) | 2.0 | 16/11/2020 | Segunda versão da Entrevista 
+[Kalebe](https://github.com/KalebeLopes), [Thiago](https://github.com/thiagomesUNB) | 2.0 | 16/11/2020 | Segunda versão da Entrevista
+[Kalebe](https://github.com/KalebeLopes), [Thiago](https://github.com/thiagomesUNB) | 3.0 | 16/11/2020 | Terceira versão da Entrevista 
 <br>
  
 
