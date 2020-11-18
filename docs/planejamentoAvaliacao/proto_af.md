@@ -39,7 +39,7 @@ O teste piloto serve para os avaliadores checarem o plano da avaliação, com o 
 
 ### Termo de consentimento
 
-O [termo de consentimento]() é um documento que serve para as questões éticas da avaliação com o participante. Nele devem estar escritos principalmente informações do que se trata a avaliação, o que o participante fará e o que será feito com os dados coletados.
+O [termo de consentimento](./Termo_prototipo_af.md) é um documento que serve para as questões éticas da avaliação com o participante. Nele devem estar escritos principalmente informações do que se trata a avaliação, o que o participante fará e o que será feito com os dados coletados.
 
 O termo será passado ao usuário assim que ele aceitar realizar a avaliação e terá desde este momento até a avaliação para ler e assinar o documento que será entregue por meio de um formulário online. Recomenda-se ao avaliador a resumir brevemente o termo e perguntar ao participante se ele tem qualquer dúvida quanto aos termos da avaliação e sanar essas dúvidas caso existam.
 
