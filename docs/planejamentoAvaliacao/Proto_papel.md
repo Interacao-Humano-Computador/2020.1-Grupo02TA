@@ -26,7 +26,8 @@ _Este documento está focado principalmente na fase de preparação e no planeja
 
 ### Protótipos
 
-- Os desenhos do protótipo podem ser visualizados [aqui](../protótipos/prototipo_de_papel.md).
+- [Desenhos do protótipo](../protótipos/prototipo_de_papel.md)
+- [Protótipo interativo](https://www.figma.com/proto/fZBY1jqeIODOFohHVMYG77/Prot%C3%B3tipo?node-id=34%3A4&scaling=min-zoom)
 
 ### Teste piloto
 
@@ -44,7 +45,7 @@ Devido ao cenário de pandemia vivenciado durante a realização do semestre cor
 
 - Uma plataforma de vídeo-conferência que seja possível compartilhar a tela, e gravar a avaliação para análises depois da entrevista. Para isso foi escolhido o Google Meet.
 
-- Uma plataforma em que se possa enviar os protótipos de papel digitalizados e criar áreas de interação para auxiliar na avaliação. Para isso foi escolhido o FIGMA, e o protótipo interativo pode ser vizualizado seguindo o [link](https://www.figma.com/proto/fZBY1jqeIODOFohHVMYG77/Prot%C3%B3tipo?node-id=34%3A4&scaling=min-zoom).
+- Uma plataforma em que se possa enviar os protótipos de papel digitalizados e criar áreas de interação para auxiliar na avaliação. Para isso foi escolhido o FIGMA, e o protótipo interativo pode ser vizualizado no tópico [Protótipos](#prototipos).
 
 ### Fluxo da Avaliação
 
@@ -124,3 +125,4 @@ O relato dos resultados é documentado após a consolidação dos resultados e d
 ## Referências
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano computador**. Elsevier. Ed. 1. 2010.
+* Aela Brasil - Design, UX, e Tecnologia. **Testes de usabilidade remoto**. (1h25m). 2020. Disponível em: <https://www.youtube.com/watch?v=zjKaHb6erzQ&feature=youtu.be&t=379>
