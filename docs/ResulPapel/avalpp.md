@@ -1,4 +1,4 @@
-# Avaliação do Protótipo de Papel
+# Avaliação do Protótipo de Alta Fidelidade
 
 ## Objetivo
 
@@ -11,10 +11,10 @@ Prototipagem de papel é uma técnica que permite criar e testar interfaces de u
 ## Avaliadores
 
 #### Avaliador 1 
-Thiago Luiz, tem 20 anos, é estudante de Engenharia de Software na Universidade de Brasília e está cursando a matéria Interação Humano Computador.
+Thiago Luiz, tem 20 anos, é estudante de Engenharia de Software na Universidade de Brasília e está cursando a disciplina Interação Humano Computador.
 
 #### Avaliador 2 
-Kaleb Lopes, tem 20 anos, é estudante de Engenharia de Software na Universidade de Brasília e está cursando a matéria Interação Humano Computador.
+Kalebe Lopes, tem 22 anos, é estudante de Engenharia de Software na Universidade de Brasília e está cursando a disciplina Interação Humano Computador.
 
 
 ## Participantes
@@ -23,7 +23,7 @@ Kaleb Lopes, tem 20 anos, é estudante de Engenharia de Software na Universidade
 Gabriel tem 19 anos é estudante de Engenharia de Software na UnB, tem alta afinidade com a tecnologia é usuário do SIGAA desde a sua implementação na Universidade de Brasília, ele utiliza a plataforma pelo menos 1 vez na semana.  
 
 #### Participante 2
-Haronildo tem 19 anos é estudante de Engenharia de Software na UnB, tem alta afinidade com a tecnologia é usuário do SIGAA desde a sua implementação na Universidade de Brasília, ele utiliza a plataforma pelo menos 1 vez na semana.  
+João tem 22 anos e é estudante de Engenharia de Software na UnB, tem alta afinidade com a tecnologia é usuário do SIGAA desde a sua implementação na Universidade de Brasília, e utiliza a plataforma pelo menos 4 vezes na semana.  
 
 
 ## Entrevistas
@@ -33,8 +33,9 @@ As Entrevistas seguem o seguinte padrão de identificação: o primeiro digito �
 ### Entrevista 1.1
 video
 <br>
+
 ### Entrevista 2.2
-video
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=HLLzg4PVpIM&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
 ## Questionários
@@ -88,6 +89,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 Autor | Versão | Data(dd/mm/aaa) | Descrição  
 ---- | ----------- | ------ | --------- 
 [Thiago](https://github.com/thiagomesUNB) | 1.0 | 18/11/2020 | Primeira Versão da Avaliação 
+[Kalebe](https://github.com/KalebeLopes)  | 2.0 | 18/11/2020 | Adição da entrevista 2 
 <br>
  
 
