@@ -24,9 +24,10 @@ pages:
     - Protótipo de papel:
       - Planejamento: "planejamentoAvaliacao/Proto_papel.md"
       - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
-      - termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
+      - Termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
     - Protótipo de alta-fidelidade:
       - Planejamento: "planejamentoAvaliacao/proto_af.md"
+      - Termo de consentimento: "planejamentoAvaliacao/Termo_prototipo_af.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
 extra_css: 
   - assets/css/extra.css
