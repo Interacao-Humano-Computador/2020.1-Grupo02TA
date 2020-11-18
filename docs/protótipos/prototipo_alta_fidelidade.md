@@ -29,4 +29,4 @@ Autor | Versão | Data(dd/mm/aaa) | Descrição
 
 ## Refêrencias
 
-<p align="justify" >TASSIOAUAD. Prototipação. Disponível em: https://tassioauad.com/2017/02/02/prototipacao/. Acesso em: 11 nov. 2020. </p>
+<p align="justify" >TASSIOAUAD. Prototipação. Disponível em: https://tassioauad.com/2017/02/02/prototipacao/. Acesso em: 18 nov. 2020. </p>
