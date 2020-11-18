@@ -35,7 +35,7 @@ video
 <br>
 
 ### Entrevista 2.2
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=HLLzg4PVpIM&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+video
 <br>
 
 ## Questionários
@@ -66,7 +66,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 ### 2.2.1 - Questionário da Tarefa: [Login](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#tela-de-login)
 
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
-| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| Remoto | - | O entrevistado informou  | ----- | ----------------- |
 | | | | | |
 <br>
 
@@ -81,8 +81,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-| | | | | |
-<br>
+| Remoto - Google Meet | Eficiência | O usuário uma opção para listar todas as disciplinas relacionadas ao curso para que ele pudesse escolher uma específica | Média | A sugestão é inserir a opção para listar todas as disciplinas do curso |
 
 ## Histórico de revisões 
   
