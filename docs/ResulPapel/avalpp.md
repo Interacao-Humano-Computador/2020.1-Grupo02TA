@@ -87,7 +87,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
   
 Autor | Versão | Data(dd/mm/aaa) | Descrição  
 ---- | ----------- | ------ | --------- 
-[Thiago](https://github.com/thiagomesUNB) | 1.0 | 11/11/2020 | Primeira Versão da Avaliação 
+[Thiago](https://github.com/thiagomesUNB) | 1.0 | 18/11/2020 | Primeira Versão da Avaliação 
 <br>
  
 
