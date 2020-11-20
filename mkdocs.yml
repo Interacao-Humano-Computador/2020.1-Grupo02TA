@@ -27,6 +27,7 @@ pages:
       - termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
     - Protótipo de alta-fidelidade:
       - Planejamento: "planejamentoAvaliacao/proto_af.md"
+      - Protótipo: "protótipos/prototipo_alta_fidelidade.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
 extra_css: 
   - assets/css/extra.css
