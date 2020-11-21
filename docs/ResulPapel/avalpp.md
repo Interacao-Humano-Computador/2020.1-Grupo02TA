@@ -1,4 +1,4 @@
-# Avaliação do Protótipo de Alta Fidelidade
+# Avaliação do Protótipo de Papel
 
 ## Objetivo
 
@@ -35,7 +35,9 @@ video
 <br>
 
 ### Entrevista 2.2
-video
+
+<iframe width="560" height="315" src="https://youtu.be/TZW5x2NOlMc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
 
 ## Questionários
@@ -65,23 +67,42 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 
 ### 2.2.1 - Questionário da Tarefa: [Login](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#tela-de-login)
 
+| O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
+| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| Sim | Não | 10 segundos | Não | Sim, Informou ao entrevistador que teve facilidade pois a interface é bem interativa |
+
+### Problemas encontrados
+
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
-| Remoto | - | O entrevistado informou  | ----- | ----------------- |
-| | | | | |
+| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| - | - | - | - | - |
+
 <br>
 
 ### 2.2.2 - Questionário da Tarefa: [Consultar minhas notas](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#tela-consultar-minhas-notas)
 
+| O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
+| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| Sim | Não | 35 segundos | Não | Sim, Informou ao entrevistador que teve facilidade pois a interface é bem interativa |
+
+### Problemas encontrados
+
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-| | | | | |
+| - | - | - | - | - |
 <br>
 
 ### 2.2.3 - Questionário da Tarefa: [Visualizar componente curricular](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#formulario-de-pesquisa-de-componente-curricular)
 
+| O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
+| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| Sim | Sim | 45 segundos | Não | Sim, Informou ao entrevistador que se confundiu com a legenda dos botões |
+
+### Problemas encontrados
+
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-| Remoto - Google Meet | Eficiência | O usuário uma opção para listar todas as disciplinas relacionadas ao curso para que ele pudesse escolher uma específica | Média | A sugestão é inserir a opção para listar todas as disciplinas do curso |
+| Listagem dos componentes curriculares  | Eficiência e Satisfação | O entrevistado se confundiu ao clicar na legenda do botão achando que era o botão em si | Alta | A sugestão é utilizar caixa de diálogo sobre os botões para, assim que o usuário passar o mouse sobre eles, aparecer a explicação do que se trata |
 
 ## Histórico de revisões 
   
@@ -89,6 +110,7 @@ Autor | Versão | Data(dd/mm/aaa) | Descrição
 ---- | ----------- | ------ | --------- 
 [Thiago](https://github.com/thiagomesUNB) | 1.0 | 18/11/2020 | Primeira Versão da Avaliação 
 [Kalebe](https://github.com/KalebeLopes)  | 2.0 | 18/11/2020 | Adição da entrevista 2 
+[Kalebe](https://github.com/KalebeLopes)  | 3.0 | 21/11/2020 | Complementação entrevista 2 
 <br>
  
 
