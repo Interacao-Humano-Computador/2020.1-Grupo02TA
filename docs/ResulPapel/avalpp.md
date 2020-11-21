@@ -23,7 +23,7 @@ Kalebe Lopes, tem 22 anos, é estudante de Engenharia de Software na Universidad
 Gabriel tem 19 anos é estudante de Engenharia de Software na UnB, tem alta afinidade com a tecnologia é usuário do SIGAA desde a sua implementação na Universidade de Brasília, ele utiliza a plataforma pelo menos 1 vez na semana.  
 
 #### Participante 2
-João tem 22 anos e é estudante de Engenharia de Software na UnB, tem alta afinidade com a tecnologia é usuário do SIGAA desde a sua implementação na Universidade de Brasília, e utiliza a plataforma pelo menos 4 vezes na semana.  
+Francisco Heronildo tem 22 anos e é estudante de Engenharia de Software na UnB, tem alta afinidade com a tecnologia é usuário do SIGAA desde a sua implementação na Universidade de Brasília, e utiliza a plataforma pelo menos 4 vezes na semana.  
 
 
 ## Entrevistas
