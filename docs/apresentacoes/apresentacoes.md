@@ -19,3 +19,7 @@
 ## 5 - Planejamento do Protótipo de papel e Relato do Storyboard e Análise de tarefas
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IcH8zC2m58A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 6 - Planejamento do Protótipo de Alta-fidelidade e Relato do Protótipo de papel
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Ico93iXTsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
