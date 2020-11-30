@@ -29,6 +29,10 @@ pages:
       - Planejamento: "planejamentoAvaliacao/proto_af.md"
       - Protótipo: "protótipos/prototipo_alta_fidelidade.md"
       - Termo de consentimento: "planejamentoAvaliacao/Termo_prototipo_af.md"
+  - Verificação:
+    - Personas: "verificacao/personas.md"
+    - Principios Gerais: "verificacao/principios.md"
+    - Metas de Usabilidade: "verificacao/metas_usabilidade.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
 extra_css: 
   - assets/css/extra.css
