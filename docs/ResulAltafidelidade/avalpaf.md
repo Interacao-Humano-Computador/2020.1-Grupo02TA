@@ -38,7 +38,7 @@ As Entrevistas seguem o seguinte padrão de identificação: o primeiro digito �
 
 ### Entrevista 2.2
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=HLLzg4PVpIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1261" height="719" src="https://www.youtube.com/embed/HLLzg4PVpIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
