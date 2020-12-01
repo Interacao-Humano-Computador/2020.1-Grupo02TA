@@ -31,12 +31,14 @@ As Entrevistas seguem o seguinte padrão de identificação: o primeiro digito �
 <br>
 
 ### Entrevista 1.1
-video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KUpars-Cf6A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
 
 ### Entrevista 2.2
 
-<iframe width="560" height="315" src="https://youtu.be/TZW5x2NOlMc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TZW5x2NOlMc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
@@ -46,24 +48,42 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
  
 ### 1.1.1 - Questionário da Tarefa: [Login](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#tela-de-login)
 
+| O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
+| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| Sim | Não | 18 segundos | Não | Não |
+
+### Problemas encontrados
+
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-| | | | | |
-<br>
+| - | - | - | - | - |
+
 
 ### 1.1.2 - Questionário da Tarefa: [Consultar minhas notas](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#tela-consultar-minhas-notas)
 
+| O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
+| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| Sim | Não | 13 segundos | Não | Não |
+
+### Problemas encontrados
+
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-| | | | | |
-<br>
+| - | - | - | - | - |
+
 
 ### 1.1.3 - Questionário da Tarefa: [Visualizar componente curricular](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#formulario-de-pesquisa-de-componente-curricular)
 
+| O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
+| ------------ | ------------------ | ---------------------- | ----- | ----------------- |
+| Sim | Não | 39 segundos | Não | Não |
+
+### Problemas encontrados
+
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-| | | | | |
-<br>
+| - | - | - | - | - |
+
 
 ### 2.2.1 - Questionário da Tarefa: [Login](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#tela-de-login)
 
@@ -77,7 +97,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
 | - | - | - | - | - |
 
-<br>
+
 
 ### 2.2.2 - Questionário da Tarefa: [Consultar minhas notas](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#tela-consultar-minhas-notas)
 
@@ -90,7 +110,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
 | - | - | - | - | - |
-<br>
+
 
 ### 2.2.3 - Questionário da Tarefa: [Visualizar componente curricular](https://interacao-humano-computador.github.io/2020.1-SIGAA/prot%C3%B3tipos/prototipo_de_papel/#formulario-de-pesquisa-de-componente-curricular)
 
@@ -110,8 +130,9 @@ Autor | Versão | Data(dd/mm/aaa) | Descrição
 ---- | ----------- | ------ | --------- 
 [Thiago](https://github.com/thiagomesUNB) | 1.0 | 18/11/2020 | Primeira Versão da Avaliação 
 [Kalebe](https://github.com/KalebeLopes)  | 2.0 | 18/11/2020 | Adição da entrevista 2 
-[Kalebe](https://github.com/KalebeLopes)  | 3.0 | 21/11/2020 | Complementação entrevista 2 
-<br>
+[Kalebe](https://github.com/KalebeLopes)  | 3.0 | 21/11/2020 | Complementação entrevista 2
+[Thiago](https://github.com/thiagomesUNB) | 4.0 | 1/12/2020 | Adição da entrevista 1
+
  
 
 ## Referências 
