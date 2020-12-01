@@ -33,6 +33,7 @@ pages:
     - Personas: "verificacao/personas.md"
     - Principios Gerais: "verificacao/principios.md"
     - Metas de Usabilidade: "verificacao/metas_usabilidade.md"
+    - Análise de tarefas: "verificacao/hta.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
 extra_css: 
   - assets/css/extra.css
