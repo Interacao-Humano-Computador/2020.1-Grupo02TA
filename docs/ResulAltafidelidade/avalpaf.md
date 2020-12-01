@@ -32,6 +32,8 @@ As Entrevistas seguem o seguinte padrão de identificação: o primeiro digito �
 
 ### Entrevista 1.1
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kvbeKDl3d04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
 
 ### Entrevista 2.2
@@ -47,7 +49,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 
 | O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-|  |  |  |  |  |
+| Sim | Não | 18 segundos | Não | Não |
 
 ### Problemas encontrados
 
@@ -62,7 +64,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 
 | O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-|  |  |  |  |  |
+| Sim | Não | 5 segundos | Não | Não  |
 
 ### Problemas encontrados
 
@@ -76,13 +78,13 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 
 | O usuário conseguiu concluir a tarefa? | O usuário cometeu algum erro na realização da tarefa? | O usuário levou quanto tempo para realizar a tarefa? | O usuário expressou alguma reação negativa? Se sim, qual? | Após terminar a tarefa, o usuário tem algum comentário a fazer? |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-|  |  |  |  |  |
+| Sim | Não | 1 minuto | Sim, dificuldade para achar o botão de visualização do componente | O participante achou pouco intuitivo o botão para visualizar o componente currícular que estava em forma de livro  |
 
 ### Problemas encontrados
 
 | Local onde ocorreu | Fatores de usabilidade prejudicaodos | Descrição e justificativa | Prioridade para correção | Sugestões de correção |  
 | ------------ | ------------------ | ---------------------- | ----- | ----------------- |
-| - | - | - | - | - |
+| Logo após clicar no butão "Buscar" na página onde se insere o nome da disciplina  | O usuário levou mais tempo apara completar a tarefa | O usuário ficou confuso sobre onde deveria clicar para visualizar o componente currícular | 3 | Poder clicar no nome da disciplina para acessar suas informações. |
 
 <br>
 
@@ -132,6 +134,7 @@ Os Questionários seguem o seguinte padrão de identificação: o primeiro digit
 Autor | Versão | Data(dd/mm/aaa) | Descrição  
 ---- | ----------- | ------ | --------- 
 [Thiago](https://github.com/thiagomesUNB) | 1.0 | 30/11/2020 | Primeira Versão da Avaliação 
+[Thiago](https://github.com/thiagomesUNB) | 2.0 | 30/11/2020 | Adicionando Primeira Entrevista
 
 <br>
  
