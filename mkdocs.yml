@@ -25,6 +25,7 @@ pages:
       - Planejamento: "planejamentoAvaliacao/Proto_papel.md"
       - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
       - Termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
+      - Resultado da Avaliação do Protótipo de Papel: "ResulPapel/avalpp.md"
     - Protótipo de alta-fidelidade:
       - Planejamento: "planejamentoAvaliacao/proto_af.md"
       - Protótipo: "protótipos/prototipo_alta_fidelidade.md"
