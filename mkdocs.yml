@@ -5,15 +5,15 @@ pages:
     - Heatmap e Roadmap: 'planejamento/planejamento.md'  
     - Sites Avaliados: 'planejamento/sites-avaliados/sites.md'
     - Processo de Design: 'planejamento/processo-de-design/processo.md'
-  - Análise do Perfil de Usários: 
-    - Questionário: 'perfil-usuario/questionario.md'
-    - Entrevista: 'perfil-usuario/entrevista.md'
-    - Persona: 'perfil-usuario/persona.md'
-  - Análise de tarefas: 'analise-de-tarefas/analise.md'
-  - Principios Gerais: 'principios-gerais.md'
-  - Guia de estilo: 'guia-de-estilo.md'
   - Análise de requisitos:
+    - Análise do Perfil de Usários: 
+      - Questionário: 'perfil-usuario/questionario.md'
+      - Entrevista: 'perfil-usuario/entrevista.md'
+      - Persona: 'perfil-usuario/persona.md'
+    - Análise de tarefas: 'analise-de-tarefas/analise.md'
+    - Principios Gerais: 'principios-gerais.md'
     - Metas de usabilidade: 'metas-de-usabilidade/metas.md'
+    - Guia de estilo: 'guia-de-estilo.md'
   - Design e Avaliação: 
     - Análise Tarefas/Storyboard:
       - Storyboard: 'design-e-avalicao/storyboard.md'
@@ -24,10 +24,16 @@ pages:
     - Protótipo de papel:
       - Planejamento: "planejamentoAvaliacao/Proto_papel.md"
       - Protótipo de papel: 'protótipos/prototipo_de_papel.md'
-      - termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
+      - Termo de consentimento: "planejamentoAvaliacao/termo_proto_papel.md"
       - Resultado da Avaliação do Protótipo de Papel: "ResulPapel/avalpp.md"
     - Protótipo de alta-fidelidade:
       - Planejamento: "planejamentoAvaliacao/proto_af.md"
+      - Protótipo: "protótipos/prototipo_alta_fidelidade.md"
+      - Termo de consentimento: "planejamentoAvaliacao/Termo_prototipo_af.md"
+  - Verificação:
+    - Personas: "verificacao/personas.md"
+    - Principios Gerais: "verificacao/principios.md"
+    - Metas de Usabilidade: "verificacao/metas_usabilidade.md"
   - Apresentações: 'apresentacoes/apresentacoes.md'
 extra_css: 
   - assets/css/extra.css
