@@ -21,7 +21,7 @@ Para o checklist, foram criadas questões pertinentes ao artefato a ser verifica
 |Pergunta|P1|P2|P3|
 |:-|:-:|:-:|:-:|
 |Apresenta nome?|Ok|Ok|Ok
-|Apresenta sobrenome?|X|X|X
+|Apresenta sobrenome?|Ok|Ok|Ok
 |Apresenta foto?|X|X|X
 |Apresenta status? (primária/secundária/anti)|X|X|X
 |Apresenta objetivos? |Ok|Ok|Ok
@@ -31,13 +31,12 @@ Para o checklist, foram criadas questões pertinentes ao artefato a ser verifica
 |Apresenta expectativas?|Ok|Ok|Ok
 |Apresenta objetivos pessoais?|X|X|X
 |Apresenta objetivos práticos?|Ok|Ok|Ok
-|Acertos(%)|42%|42%|42%
+|Acertos(%)|50%|50%|50%
 
 ## Conclusão
 
 Faltam alguns elementos nas descrições das personas, sendo elas:
 
-* Sobrenome;
 * Foto;
 * Status;
 * Habilidades;
@@ -50,6 +49,7 @@ O espaçamento entre os textos está diferente e não há uma anti-persona.
 |Autor|Versão|Data(dd/mm/aaa)|Descrição|
 |-|-|-|-|
 |[Wagner Martins](https://github.com/wagnermc506)| 1.0 | 29/11/2020 |Verificação das personas
+|[Wagner Martins](https://github.com/wagnermc506)| 1.1 | 30/11/2020 |Correção do checklist
 
 ## Referências
 
