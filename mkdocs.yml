@@ -30,6 +30,7 @@ pages:
       - Planejamento: "planejamentoAvaliacao/proto_af.md"
       - Protótipo: "protótipos/prototipo_alta_fidelidade.md"
       - Termo de consentimento: "planejamentoAvaliacao/Termo_prototipo_af.md"
+      - Resultado da Avaliação do Protótipo de Alta Fidelidade: "ResulAltafidelidade/avalpaf.md"
   - Verificação:
     - Personas: "verificacao/personas.md"
     - Principios Gerais: "verificacao/principios.md"
