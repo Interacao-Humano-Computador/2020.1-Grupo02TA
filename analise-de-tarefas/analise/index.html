@@ -1,0 +1,1729 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Análise de tarefas - SIGAA</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analise-de-tarefas" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="SIGAA" class="md-header-nav__button md-logo" aria-label="SIGAA">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            SIGAA
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Análise de tarefas
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/Interacao-Humano-Computador/2020.1-SIGAA/" title="Ir ao repositório" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Repositório
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SIGAA" class="md-nav__button md-logo" aria-label="SIGAA">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    SIGAA
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/Interacao-Humano-Computador/2020.1-SIGAA/" title="Ir ao repositório" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Repositório
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <label class="md-nav__link" for="nav-2">
+      Planejamento
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Planejamento" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Planejamento
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamento/planejamento/" class="md-nav__link">
+      Heatmap e Roadmap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamento/sites-avaliados/sites/" class="md-nav__link">
+      Sites Avaliados
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamento/processo-de-design/processo/" class="md-nav__link">
+      Processo de Design
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    <label class="md-nav__link" for="nav-3">
+      Análise de requisitos
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Análise de requisitos" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Análise de requisitos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" >
+    <label class="md-nav__link" for="nav-3-1">
+      Análise do Perfil de Usários
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Análise do Perfil de Usários" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        <span class="md-nav__icon md-icon"></span>
+        Análise do Perfil de Usários
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../perfil-usuario/questionario/" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../perfil-usuario/entrevista/" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../perfil-usuario/persona/" class="md-nav__link">
+      Persona
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Análise de tarefas
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Análise de tarefas
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-sobre" class="md-nav__link">
+    1 - Sobre
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-aht" class="md-nav__link">
+    1.1 - AHT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-ctt" class="md-nav__link">
+    1.2 - CTT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-objetivos" class="md-nav__link">
+    2 - Objetivos
+  </a>
+  
+    <nav class="md-nav" aria-label="2 - Objetivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-fazer-login" class="md-nav__link">
+    2.1 - Fazer Login
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 - Fazer Login">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-login" class="md-nav__link">
+    AHT Login
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-login" class="md-nav__link">
+    CTT Login
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-fazer-cadastro" class="md-nav__link">
+    2.2 - Fazer cadastro
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 - Fazer cadastro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-cadastro" class="md-nav__link">
+    AHT Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-cadastro" class="md-nav__link">
+    CTT Cadastro
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-visualizar-calendario-academico" class="md-nav__link">
+    2.3 Visualizar calendário acadêmico
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Visualizar calendário acadêmico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-visualizar-calendario-academico" class="md-nav__link">
+    AHT Visualizar Calendário Acadêmico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-visualizar-calendario-academico" class="md-nav__link">
+    CTT Visualizar calendário acadêmico
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-acessar-dados-de-um-componente-curricular" class="md-nav__link">
+    2.4 Acessar dados de um componente curricular
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4 Acessar dados de um componente curricular">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-acessar-dados-de-um-componente-curricular" class="md-nav__link">
+    AHT Acessar dados de um componente curricular
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-acessar-dados-de-um-componente-curricular" class="md-nav__link">
+    CTT Acessar dados de um componente curricular
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-visualizar-estrutura-curricular" class="md-nav__link">
+    2.5 - Visualizar Estrutura Curricular
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 - Visualizar Estrutura Curricular">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-visualizar-estrutura-curricular" class="md-nav__link">
+    AHT Visualizar Estrutura Curricular
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-visualizar-estrutura-curricular" class="md-nav__link">
+    CTT Visualizar Estrutura Curricular
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-visualizar-historico" class="md-nav__link">
+    2.6 - Visualizar Historico
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6 - Visualizar Historico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-visualizar-historico" class="md-nav__link">
+    AHT Visualizar Historico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-visualizar-historico" class="md-nav__link">
+    CTT Visualizar Historico
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de revisões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../principios-gerais/" class="md-nav__link">
+      Principios Gerais
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../metas-de-usabilidade/metas/" class="md-nav__link">
+      Metas de usabilidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guia-de-estilo/" class="md-nav__link">
+      Guia de estilo
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Design e Avaliação
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Design e Avaliação" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Design e Avaliação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1" >
+    <label class="md-nav__link" for="nav-4-1">
+      Análise Tarefas/Storyboard
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Análise Tarefas/Storyboard" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        <span class="md-nav__icon md-icon"></span>
+        Análise Tarefas/Storyboard
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../design-e-avalicao/storyboard/" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamentoAvaliacao/PlStoryBoard/" class="md-nav__link">
+      Planejamento avaliação do StoryBoard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ResulStoryboard/story/" class="md-nav__link">
+      Resultado da Avaliação do StoryBoard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamentoAvaliacao/PlHTA/" class="md-nav__link">
+      Planejamento da Avaliação de tarefas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ResulAnalise/analise/" class="md-nav__link">
+      Resultado da Avaliação de tarefas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2" >
+    <label class="md-nav__link" for="nav-4-2">
+      Protótipo de papel
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Protótipo de papel" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        <span class="md-nav__icon md-icon"></span>
+        Protótipo de papel
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamentoAvaliacao/Proto_papel/" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../prot%C3%B3tipos/prototipo_de_papel/" class="md-nav__link">
+      Protótipo de papel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamentoAvaliacao/termo_proto_papel/" class="md-nav__link">
+      Termo de consentimento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ResulPapel/avalpp/" class="md-nav__link">
+      Resultado da Avaliação do Protótipo de Papel
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    <label class="md-nav__link" for="nav-4-3">
+      Protótipo de alta-fidelidade
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Protótipo de alta-fidelidade" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Protótipo de alta-fidelidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamentoAvaliacao/proto_af/" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../prot%C3%B3tipos/prototipo_alta_fidelidade/" class="md-nav__link">
+      Protótipo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planejamentoAvaliacao/Termo_prototipo_af/" class="md-nav__link">
+      Termo de consentimento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ResulAltafidelidade/avalpaf/" class="md-nav__link">
+      Resultado da Avaliação do Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Verificação
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Verificação" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Verificação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../verificacao/personas/" class="md-nav__link">
+      Personas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../verificacao/principios/" class="md-nav__link">
+      Principios Gerais
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../verificacao/metas_usabilidade/" class="md-nav__link">
+      Metas de Usabilidade
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../apresentacoes/apresentacoes/" class="md-nav__link">
+      Apresentações
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-sobre" class="md-nav__link">
+    1 - Sobre
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-aht" class="md-nav__link">
+    1.1 - AHT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-ctt" class="md-nav__link">
+    1.2 - CTT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-objetivos" class="md-nav__link">
+    2 - Objetivos
+  </a>
+  
+    <nav class="md-nav" aria-label="2 - Objetivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-fazer-login" class="md-nav__link">
+    2.1 - Fazer Login
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1 - Fazer Login">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-login" class="md-nav__link">
+    AHT Login
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-login" class="md-nav__link">
+    CTT Login
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-fazer-cadastro" class="md-nav__link">
+    2.2 - Fazer cadastro
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 - Fazer cadastro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-cadastro" class="md-nav__link">
+    AHT Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-cadastro" class="md-nav__link">
+    CTT Cadastro
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-visualizar-calendario-academico" class="md-nav__link">
+    2.3 Visualizar calendário acadêmico
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Visualizar calendário acadêmico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-visualizar-calendario-academico" class="md-nav__link">
+    AHT Visualizar Calendário Acadêmico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-visualizar-calendario-academico" class="md-nav__link">
+    CTT Visualizar calendário acadêmico
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-acessar-dados-de-um-componente-curricular" class="md-nav__link">
+    2.4 Acessar dados de um componente curricular
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4 Acessar dados de um componente curricular">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-acessar-dados-de-um-componente-curricular" class="md-nav__link">
+    AHT Acessar dados de um componente curricular
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-acessar-dados-de-um-componente-curricular" class="md-nav__link">
+    CTT Acessar dados de um componente curricular
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-visualizar-estrutura-curricular" class="md-nav__link">
+    2.5 - Visualizar Estrutura Curricular
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 - Visualizar Estrutura Curricular">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-visualizar-estrutura-curricular" class="md-nav__link">
+    AHT Visualizar Estrutura Curricular
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-visualizar-estrutura-curricular" class="md-nav__link">
+    CTT Visualizar Estrutura Curricular
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-visualizar-historico" class="md-nav__link">
+    2.6 - Visualizar Historico
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6 - Visualizar Historico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aht-visualizar-historico" class="md-nav__link">
+    AHT Visualizar Historico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ctt-visualizar-historico" class="md-nav__link">
+    CTT Visualizar Historico
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de revisões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Interacao-Humano-Computador/2020.1-SIGAA/edit/master/docs/analise-de-tarefas/analise.md" title="Editar esta página" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="analise-de-tarefas">Análise de Tarefas</h1>
+<h2 id="1-sobre">1 - Sobre</h2>
+<p align="justify"> Análise de Tarefa (AT) é o termo genérico para um conjunto de métodos para descrever as tarefas das
+pessoas visando entender melhor os procedimentos para sua realização.[UsabGlossary]</p>
+
+<p align="justify"> O enfoque básico da AT é descrever a tarefa como tendo um objetivo determinado
+e um conjunto de passos envolvidos na sua realização. O nível de detalhe desta
+descrição é determinado pelas intenções da AT. Uma melhor compreensão de tarefas pode auxiliar a delimitar um problema coletando informações de modo sistemático sobre um problema, organizar as informações coletadas, fazer predições de tempo de execução de tarefas, prevenir erros (identificando procedimentos difíceis e/ou confusos), auxiliar a identificar as fontes de problemas e gerar hipóteses para solucioná-los. AT é um processo interativo e iterativo, com períodos alternados de coleta, classificação e de interpretação de dados. Várias famílias de métodos de AT existem e entre as principais estão a Análise Hierárquica de Tarefas – abreviada AHT (Hierarchical Task Analysis – HTA), e a Análise Cognitiva de tarefas (Cognitive Task
+Analysis). </p>
+
+<h2 id="11-aht">1.1 - AHT</h2>
+<p align="justify"> AHT é a mais comumente utilizada, decompondo uma tarefa de modo top-down para formar uma hierarquia de subtarefas que por sua vez podem também ser decompostas sucessivamente. Em geral, sugere-se que a decomposição acabe quando for atingido um nível baixo de descrição em termos de ações elementares não decomponíveis </p>
+<p align="justify">Tarefas com múltiplos níveis de decomposição apresentam relações, e estas podem ser do tipo sequencial (1>2), seleção (1/2) ou paralelo (1+2). (SILVA; BARBOSA, 2010, p. 193)</p>
+
+<h2 id="12-ctt">1.2 - CTT</h2>
+<p align="justify"> Os elementos da notação CTT são definidos em torno da idéia de que o objetivo do
+usuário ao realizar uma tarefa pode ser traduzido como uma modificação do estado do
+sistema ou uma consulta a um recurso do sistema. Assim, os modelos criados em CTT
+podem ser interpretados como uma representação (de alto nível de abstração) dos
+estados possíveis do sistema e do usuário durante a realização de uma tarefa específica.
+Segundo esta abordagem, a execução de cada tarefa individual é capaz de modificar a
+configuração de estados do sistema. O comportamento do modelo de tarefas é definido em CTT pela adição de
+operadores temporais (tais como escolha, repetição, seqüência, etc.) entre as tarefas. A
+existência de tais operadores temporais torna possível a modelagem de tarefas em
+sistemas interativos. </p>
+<p align="justify">A tabela abaixo apresenta os operadores, suas notações e descrições (SILVA; BARBOSA, 2010, p. 203).</p>
+
+<table>
+<thead>
+<tr>
+<th>Operador</th>
+<th>Notação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ativação</td>
+<td>T1 &gt;&gt; T2</td>
+<td>T2 só pode iniciar após T1 terminar</td>
+</tr>
+<tr>
+<td>Ativação com passagem de informação</td>
+<td>T1 []&gt;&gt; T2</td>
+<td>T2 só pode iniciar após T1 e a informação produzida por T1 é passada para T2</td>
+</tr>
+<tr>
+<td>Escolha</td>
+<td>T1 [] T2</td>
+<td>Duas tarefas possíveis, entretanto, assim que uma é iniciada, a outra é desabilitada</td>
+</tr>
+<tr>
+<td>Tarefas concorrentes</td>
+<td>T1 ||| T2</td>
+<td>Podem ser realizadas em qualquer ordem ou ao mesmo tempo</td>
+</tr>
+<tr>
+<td>Tarefas concorrentes e comunicantes</td>
+<td>T1 | [] | T2</td>
+<td>Podem ser realizadas em qualquer ordem ou ao mesmo tempo e também podem trocar informações</td>
+</tr>
+<tr>
+<td>Tarefas independentes</td>
+<td>T1 |=| T2</td>
+<td>Podem ser realizadas em qualquer ordem, mas quando uma é iniciada, precisa terminar para iniciar a outra</td>
+</tr>
+<tr>
+<td>Desativação</td>
+<td>T1 [&gt; T2</td>
+<td>T1 é interrompida por T2</td>
+</tr>
+<tr>
+<td>Suspensão/retomada</td>
+<td>T1 |&gt; T2</td>
+<td>T1 pode ser interrompida por T2 e é retomada ao ponto em que parou assim que T2 é terminada.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-objetivos">2 - Objetivos</h2>
+<h3 id="21-fazer-login">2.1 - Fazer Login</h3>
+<table>
+<thead>
+<tr>
+<th>Objetivos/operações</th>
+<th>Problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Acessar ao SIGAA</td>
+<td>-</td>
+</tr>
+<tr>
+<td>1. Navegar até a página de Login</td>
+<td>ação: navegar até a página de login <br/> feedback: o site apresentará o formulário de login</td>
+</tr>
+<tr>
+<td>2. Informar matrícula e senha</td>
+<td>plano: informar dados de cadastro <br/> recomendado1: Aluno <br/> recomendado2: Servidor</td>
+</tr>
+<tr>
+<td>2.1 Verificar os dados de login</td>
+<td>ação: inserir dados de nome de usuário e senha</td>
+</tr>
+<tr>
+<td>2.1.1  Confirmar login</td>
+<td>ação: pressionar o botão login ou apertar enter.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aht-login">AHT Login</h4>
+<p align="center">Figura 1 - AHT de Login</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/38164895/94977248-52a1e000-04ee-11eb-9447-94e430676ae0.png"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h4 id="ctt-login">CTT Login</h4>
+<p align="center">Figura 2 - CTT de Login</p>
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/38164895/94978982-9dbff100-04f6-11eb-839d-78ff845065fb.png"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h3 id="22-fazer-cadastro">2.2 - Fazer cadastro</h3>
+<table>
+<thead>
+<tr>
+<th>Objetivos/operações</th>
+<th>Problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Acessar o SIGGA</td>
+<td>-</td>
+</tr>
+<tr>
+<td>1. Navegar até a página de cadastro</td>
+<td>feedback:  o site irá carregar a tela de login inicialmente</td>
+</tr>
+<tr>
+<td>2. Clicar em cadastra-se aqui</td>
+<td>ação: clicar no link cadastra-se. <br/> feedback: o site irá carregar a página de formulário</td>
+</tr>
+<tr>
+<td>3. Fazer Aluno</td>
+<td>plano: informar dados de cadastro do aluno <br/> recomendado: Aluno</td>
+</tr>
+<tr>
+<td>3.1. Cadastro Servidor</td>
+<td>plano: Informar dados de cadastro <br/> recomendado: Servidor</td>
+</tr>
+<tr>
+<td>3.1.1 - Preencher os dados  de Aluno ou Servidor</td>
+<td>plano: o Aluno  ou Servidor deve informar: Matrícula, Nível, CPF, Nome Social, RG, Data de nascimento, E-mail, Ano/semestre inicial, Senha.  <br/></td>
+</tr>
+<tr>
+<td>3. - Confirmar Cadastro</td>
+<td>ação: pressionar o botão de confirmar cadastro. <br/> feedback: o site irá mostrar a página inicial do aluno ou servidor</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aht-cadastro">AHT Cadastro</h4>
+<p align="center">Figura 3 - AHT de Cadastro</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/38164895/94979128-76b5ef00-04f7-11eb-9df9-724adfca850f.png"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h4 id="ctt-cadastro">CTT Cadastro</h4>
+<p align="center">Figura 2 - CTT de Cadastro</p>
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/38164895/94979107-5128e580-04f7-11eb-80e9-0c11ac1d416c.png"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h3 id="23-visualizar-calendario-academico">2.3 Visualizar calendário acadêmico</h3>
+<table>
+<thead>
+<tr>
+<th>Objetivos/operações</th>
+<th>Problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Visualizar calendário acadêmico</td>
+<td>Plano: navegar até a página de listagem dos calendários e clicar no ícone de visualização</td>
+</tr>
+<tr>
+<td>1. Navegar até a página de listagem dos calendários</td>
+<td>Plano: logar no sistema, e na página inicial, passar o mouse no menu Ensino e Clicar no calendário acadêmico</td>
+</tr>
+<tr>
+<td>1.1. Na página inicial, com o usuário logado, passar o mouse no menu Ensino</td>
+<td>Feedback: um menu flutuante é aberto com as opções</td>
+</tr>
+<tr>
+<td>1.2. Clicar em Calendário Acadêmico</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2. Clicar no ícone de lupa associado ao calendário que se deseja visualizar</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aht-visualizar-calendario-academico">AHT Visualizar Calendário Acadêmico</h4>
+<p align="center"> Figura 3 - AHT da visualição do Calendário Acadêmico</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/94999517-3fdfe780-0590-11eb-93a7-d061baf0c10b.png"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h4 id="ctt-visualizar-calendario-academico">CTT Visualizar calendário acadêmico</h4>
+<p align="center"> Figura 4 - CTT da visualição do calendário acadêmico</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/94999552-6b62d200-0590-11eb-84e8-ee7a34a8e28a.png"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h3 id="24-acessar-dados-de-um-componente-curricular">2.4 Acessar dados de um componente curricular</h3>
+<table>
+<thead>
+<tr>
+<th>Objetivos/operações</th>
+<th>Problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Acessar dados de um componente curricular</td>
+<td>Plano: preencher o formulário de busca e acessar a página do componente</td>
+</tr>
+<tr>
+<td>1. Preencher o formulário de busca</td>
+<td>Plano: navegar até a página do formulário, informar os dados de busca e clicar em buscar<br/> Input: campos do formulário para procurar componentes<br/> Feedback: a página exibe uma lista de itens baseada nos dados do formulário enviados</td>
+</tr>
+<tr>
+<td>1.1. Navegar até a página do formulário</td>
+<td>Plano: acessar a página inicial, e no menu, selecionar Ensino, Consultas Gerais e clicar em Consultar Componente Curricular</td>
+</tr>
+<tr>
+<td>1.1.1. Com o usuário logado, acessar a página inicial</td>
+<td>-</td>
+</tr>
+<tr>
+<td>1.1.2. No menu, selecionar Ensino, Consultas Gerais, e clicar em Consultar Componente Curricular</td>
+<td>-</td>
+</tr>
+<tr>
+<td>1.2. Informar pelo menos um dos dados do componente que deseja acessar</td>
+<td>Ação: Informar nível, código, nome da disciplina, pré-requisito, co-requisito, equivalência, unidade responsável, tipo do componente <strong>ou</strong> modalidade</td>
+</tr>
+<tr>
+<td>1.3 Clicar em buscar</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2. Acessar a página do componente</td>
+<td>Plano: Procurar o componente desejado e clicar no ícone de visualização</td>
+</tr>
+<tr>
+<td>2.1. Na lista aberta após o preenchimento do formulário, procurar o componente desejado</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2.2. Clicar no ícone de lupa (Visualizar o componente)</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aht-acessar-dados-de-um-componente-curricular">AHT Acessar dados de um componente curricular</h4>
+<p align="center"> Figura 5 - AHT Acessar dados de um componente curricular</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/94999529-56863e80-0590-11eb-97c3-3e0c9f23afa9.png"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h4 id="ctt-acessar-dados-de-um-componente-curricular">CTT Acessar dados de um componente curricular</h4>
+<p align="center"> Figura 6 - CTT Acessar dados de um componente curricular</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/94999574-86cddd00-0590-11eb-8dbe-56570a031fa2.png">
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h3 id="25-visualizar-estrutura-curricular">2.5 - Visualizar Estrutura Curricular</h3>
+<table>
+<thead>
+<tr>
+<th>Objetivos/operações</th>
+<th>Problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Visualizar Estrutura Curricular 1&gt;2</td>
+<td>feedback:Estrutura correspondente ao curso mostrada em tela<br/>plano:Preencher o formulário da busca e selecionar a estrutura desejada</td>
+</tr>
+<tr>
+<td>1. Preencher Formulario de busca da estrutura 1&gt;2&gt;3</td>
+<td>input:Formulario de busca com curso,Matriz curricular,Código.<br/>ação:emitir um lista de curriculos.<br/>plano:Acessar a página de Busca da estutura curricular,selecionar os filtros de busca e clicar no botão "buscar"</td>
+</tr>
+<tr>
+<td>2. Selecionar Estrutura curricular desejada</td>
+<td><br/> feedback: o site irá carregar a página de com as diversas matérias que compõem o currículo<br/>plano:Selecionar a lupa correspondente ao currículo desejado</td>
+</tr>
+<tr>
+<td>1.1. Acessar a página de busca da estrutura curricular1&gt;2</td>
+<td>plano: Usuário logado, percorrer o cursor até a opção"Ensino" e selecionar "Consultar Estrutura Curricular <br/> feedback:Página permitindo a busca do currículo<br> input:Formulario de busca com curso,Matriz curricular,Código</td>
+</tr>
+<tr>
+<td>1.2. Determinar um filtro de busca</td>
+<td>input:Curso,Matriz Curricular,Código</td>
+</tr>
+<tr>
+<td>1.3 Clicar no botão "buscar</td>
+<td>-</td>
+</tr>
+<tr>
+<td>1.1.1. Com o usuário logado percorrer o cursor até a opção "Ensino</td>
+<td>-</td>
+</tr>
+<tr>
+<td>1.1.2. - Selecionar a Opção"Consultas Gerais" e clicar em "Consultar Estrutura Curricular"</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2.1. - Dentre as opções de matrizes curriculares, clicar no ícone da lupa correspondente</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aht-visualizar-estrutura-curricular">AHT Visualizar Estrutura Curricular</h4>
+<p align="center">Figura 7 - AHT Visualizar Estrutura Curricular</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/95003277-1b960200-05b4-11eb-94ba-c634b41badaf.jpg"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h4 id="ctt-visualizar-estrutura-curricular">CTT Visualizar Estrutura Curricular</h4>
+<p align="center">Figura 8 - CTT de Visualizar Estrutura Curricular</p>
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/95003292-47b18300-05b4-11eb-98b4-68b8362f3513.jpg"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h3 id="26-visualizar-historico">2.6 - Visualizar Historico</h3>
+<table>
+<thead>
+<tr>
+<th>Objetivos/operações</th>
+<th>Problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0. Visualizar Historico</td>
+<td>Feedback: Documento referente ao histórico do aluno baixado<br/> Plano: Acesso ao arquivo disponibilizado pelo SIGAA</td>
+</tr>
+<tr>
+<td>1. Acesso ao arquivo de Histórico sisponibilizado pelo SIGAA 1&gt;2</td>
+<td>Plano:Logado o aluno deve percorrer,na página inicial,o cursor até a opção "Ensino" e selecionar a opção "Emitir Histórico"</td>
+</tr>
+<tr>
+<td>1.1.Logado o aluno deve percorrer,na página inicial,o cursor até a opção "Ensino"</td>
+<td>-</td>
+</tr>
+<tr>
+<td>1.2. - Secionar a opção "Emitir Histórico</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="aht-visualizar-historico">AHT Visualizar Historico</h4>
+<p align="center">Figura 9 - AHT de Visualizar Histórico</p>
+
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/95003285-323c5900-05b4-11eb-9b50-615fff721423.jpg"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h4 id="ctt-visualizar-historico">CTT Visualizar Historico</h4>
+<p align="center">Figura 10 - CTT de Visualizar Histórico</p>
+<div align="center">
+    <img  src="https://user-images.githubusercontent.com/47457792/95003293-5a2bbc80-05b4-11eb-90db-f7a78fbf1bbe.jpg"/>
+</div>
+<p align="center">  Fonte: Autor </p>
+
+<h2 id="historico-de-revisoes"><strong>Histórico de revisões</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Autor</th>
+<th>Versão</th>
+<th>Data(dd/mm/aaa)</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lucas Lopes</td>
+<td>1.0</td>
+<td>02/10/2020</td>
+<td>Criação do documento. <br/> Criação dos objetivos 2.1 e 2.2 e seus respectivos modelos de tarefas.</td>
+</tr>
+<tr>
+<td>Murilo Schiler</td>
+<td>1.1</td>
+<td>03/10/2020</td>
+<td>Acréscimo no Documento. <br/> Criação dos objetivos 2.5 e 2.6 e seus respectivos modelos de tarefas.</td>
+</tr>
+<tr>
+<td>Wagner Martins</td>
+<td>1.2</td>
+<td>03/10/2020</td>
+<td>Acréscimo no Documento. <br/> Criação dos objetivos 2.3 e 2.4 e seus respectivos modelos de tarefas.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencias"><strong>Referências</strong></h2>
+<ul>
+<li><p align="justify">WINCKLER, M. A. A; PIMENTA, Marcelo Soares. Análise e Modelagem de Tarefas : IHC2004 (Tutorial).  LIIHS-IRIT, Curitiba, v. 1, n. 1, p. 1-29, out./2004. Disponível em: https://www.irit.fr/~Marco.Winckler/publications/2004-IHC-tutorial.pdf. Acesso em: 2 out. 2020.</p></li>
+<li><p align="justify"> BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. Interação Humano computador. Elsevier. Ed. 1. 2010.</li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../perfil-usuario/persona/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Persona
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../principios-gerais/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Principios Gerais
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
