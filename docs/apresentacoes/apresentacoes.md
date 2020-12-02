@@ -23,3 +23,7 @@
 ## 6 - Planejamento do Protótipo de Alta-fidelidade e Relato do Protótipo de papel
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Ico93iXTsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 7 - Apresentação Final
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/403zPRIVVdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
